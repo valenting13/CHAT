@@ -1,0 +1,138 @@
+body{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+.contenidoProtegido{
+    width: 100%;
+}
+.btnAcceder{
+    padding: 3px;
+    width: 120px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(216, 135, 253);
+    border: none;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    font-size: 28px;
+    font-weight: bold;
+
+
+}
+.btnAcceder:hover{
+    background-color: rgb(211, 39, 125);
+    transform: translateY(5px);
+    box-shadow: 0 22px 26px rgba(0,0,0,0.2);
+    border: none;
+
+}
+.btnCerrarSesion{
+    padding: 3px;
+    width: 170px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 39, 125);
+    border: none;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    font-size: 28px;
+    font-weight: bold;
+
+
+}
+.btnCerrarSesion:hover{
+    background-color: rgb(216, 135, 253) ;
+    transform: translateY(5px);
+    box-shadow: 0 22px 26px rgba(0,0,0,0.2);
+    border: none;
+
+}
+.letra{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    background-color: rgb(236, 214, 85);
+    width: 25%;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 100px;
+    color: black;
+    
+}
+.inicio{
+    width: 100%;
+    justify-content: center;
+    
+}
+.barra{
+    margin: auto;
+    width: 100%;
+    height: 80px;    
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, rgb(228, 194, 4),rgb(255, 252, 78));
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(105, 0, 0);
+    font-weight: 700;
+    margin: auto;
+}
+h2{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(105, 0, 0);
+    font-weight: 700;
+    margin: auto;
+}
+.texto1{
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    color: white;
+    background-color: rgb(121, 27, 165);
+    border-radius: 50px;
+    margin: 3px;
+    margin-left: 5px;
+}
+.texto2{
+    
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    color: white;
+    background-color: rgb(184, 23, 103);
+    border-radius: 50px;
+    margin: 3px;
+    margin-left: 5px;
+    
+}
+.botones{
+    margin: auto;
+}
+.homero{
+    height: auto;
+    width: auto;
+    max-width: 70px;
+    max-width: 70px;
+    margin: auto;
+}
+main{
+    background-image: url("/img/donas.jpg");
+    background-size: cover;    
+}
+
+.nombreUsuario{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.formulario{
+    background-color: violet;
+}
